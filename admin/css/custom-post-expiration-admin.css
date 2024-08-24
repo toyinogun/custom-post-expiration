@@ -1,0 +1,17 @@
+#cpen_expiration_datetime .inside {
+    padding: 0 12px;
+}
+
+#cpen_expiration_datetime label {
+    display: inline-block;
+    width: 100px;
+}
+
+#cpen_expiration_datetime input[type="date"],
+#cpen_expiration_datetime input[type="time"] {
+    width: calc(100% - 105px);
+}
+
+#cpen_current_datetime {
+    font-weight: bold;
+}
